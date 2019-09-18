@@ -1,0 +1,111 @@
+body {
+    background-color: mintcream; 
+    font-family:  "bello-pro", sans-serif; 
+    color: skyblue;
+    margin:0; 
+    padding:0;
+}
+
+h2{
+    font-family: quasimoda, sans-serif;
+    color: darkblue;
+    font-weight: 400;
+    font-style: normal;
+    background-color: mintcream;
+}
+
+h3{
+    font-family: quasimoda, sans-serif;
+    color: darkblue;
+    font-size: 20px;
+}
+
+h7 {
+    font-size: 40px;
+}
+
+h8 {
+    font-size: 20px;
+}
+p{
+    font-family: quasimoda, sans-serif;
+    color: darkblue;
+    font-weight: 400;
+    font-style: normal;
+    background-color: mintcream;
+}
+
+.menu letter-set {
+    border: 1px solid #fff;
+    width 900px; 
+    display: flex;
+    justify-content: space-around;
+}
+
+.container {
+    width:768px;
+    height:1024px;
+    margin:0 auto;
+    
+}
+
+.box {
+    margin-left: auto;
+    margin-right: auto;
+    width: 491px;
+}
+
+.header {
+    height=60px; 
+}
+
+/* letter and button section */
+
+.letter-container {
+    width: 491px;
+    display: flex;
+    align-items: baseline;
+    
+}
+
+.letter-container h1 {
+    font-size: 449px;
+    font-weight: 900px;
+    margin-left: 31.28px;
+    margin-right: 13.55px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+h7, h4, h5 {
+    margin: 0px;
+}
+
+p1 {
+    font-family: quasimoda, sans-serif;
+    color: darkblue;
+    font-weight: 400;
+    font-style: normal;
+    background-color: mintcream;
+    font-size: 12px;   
+}
+
+h3, p {
+    margin: 0px;
+}
+
+img { 
+    margin-top: 30px;
+}
+
+h10 {
+    font-size: 47px;
+}
+
+#button {
+    width: 66px; 
+    height: 66px; 
+    border-radius: 50%; 
+    background-color: darkblue; 
+    margin-left: 20px;
+}
