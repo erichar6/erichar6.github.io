@@ -21,7 +21,7 @@ h3{
 }
 
 h7 {
-    font-size: 40px;
+    font-size: 30px;
 }
 
 h8 {
@@ -78,7 +78,19 @@ p{
 }
 
 h7, h4, h5 {
-    margin: 0px;
+    margin: -5px;
+}
+
+h7 {
+    position: relative;
+    left: 5%
+}
+
+}
+
+img, h7, h4, h5 { 
+    display: inline-block;
+    vertical-align: middle; 
 }
 
 p1 {
