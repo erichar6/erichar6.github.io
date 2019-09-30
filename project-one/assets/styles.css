@@ -6,26 +6,47 @@ body {
     padding:0;
 }
 
+.letter-container img {
+    position: absolute;
+    z-index: 99;
+    top:-16%;
+    left:;
+    visibility: hidden;
+    width: 340px;
+    height: 700px;
+    margin-top: 30px;
+}
+
+.letter-container img.visible {
+    visibility: visible;
+}
+
 h2{
     font-family: quasimoda, sans-serif;
     color: darkblue;
     font-weight: 400;
     font-style: normal;
     background-color: mintcream;
+    font-size: 30px;
+    margin: 0px;  
+}
+
+.box h5 {
+    font-size: 46px;
+    margin: 0px;
+}
+footer p {
+    font-family: quasimoda, sans-serif;
+    color: darkblue;
+    font-style: italic;
+    font-size: 16px;
 }
 
 h3{
-    font-family: quasimoda, sans-serif;
+    font-family: quasimoda, sans-serif; 
     color: darkblue;
-    font-size: 20px;
-}
-
-h7 {
     font-size: 30px;
-}
-
-h8 {
-    font-size: 20px;
+    margin: 0px;
 }
 p{
     font-family: quasimoda, sans-serif;
@@ -34,6 +55,7 @@ p{
     font-style: normal;
     background-color: mintcream;
 }
+
 
 .menu letter-set {
     border: 1px solid #fff;
@@ -45,7 +67,7 @@ p{
 .container {
     width:768px;
     height:1024px;
-    margin:0 auto;
+    margin: 0 auto; 
     
 }
 
@@ -65,7 +87,11 @@ p{
     width: 491px;
     display: flex;
     align-items: baseline;
-    
+    position: relative;
+}
+
+.flexy {
+    display: flex;
 }
 
 .letter-container h1 {
@@ -73,45 +99,41 @@ p{
     font-weight: 900px;
     margin-left: 31.28px;
     margin-right: 13.55px;
-    margin-top: 0px;
-    margin-bottom: 0px;
+    margin-top: -100px;
+    margin-bottom: -100px;
 }
 
-h7, h4, h5 {
+ h4, h5 {
     margin: -5px;
+    font-size: 20px
 }
 
-h7 {
-    position: relative;
-    left: 5%
-}
-
-}
-
-img, h7, h4, h5 { 
-    display: inline-block;
-    vertical-align: middle; 
-}
-
-p1 {
+p {
     font-family: quasimoda, sans-serif;
     color: darkblue;
     font-weight: 400;
     font-style: normal;
     background-color: mintcream;
-    font-size: 12px;   
-}
-
-h3, p {
-    margin: 0px;
+    font-size: 20px; 
 }
 
 img { 
-    margin-top: 30px;
+    margin-top: 10px;
+    width: 150px;
+    height: 150px;
+    margin-bottom: 10px;
 }
 
-h10 {
-    font-size: 47px;
+#photo-info {
+    display: flex;
+    width: 80%;
+}
+
+.idk {
+    margin-top: 45px;
+    margin-left: 20px;
+    text-align: left; 
+    width: 50%;
 }
 
 #button {
@@ -119,5 +141,7 @@ h10 {
     height: 66px; 
     border-radius: 50%; 
     background-color: darkblue; 
-    margin-left: 20px;
+    margin-left: 15px;
+    z-index: 200;
+    position: relative;
 }
