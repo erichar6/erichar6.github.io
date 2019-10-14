@@ -1,0 +1,26 @@
+body {
+    background-color: cornsilk;
+    font-family:  "bello-pro", sans-serif; 
+    color: red; 
+    font-size: 100px;
+    margin:0; 
+    padding:0; 
+    margin-top: -100px;
+    margin-bottom: -200px; 
+}
+    
+h2 {
+    font-size: 50px;
+    margin-top: -50px; 
+}
+
+
+
+ letter-container h1 {
+    font-size: 500px; 
+    font-weight: 900px;
+    margin-left: 31.28px;
+    margin-right: 13.55px;
+    margin-top: -100px;
+    margin-bottom: -100px;
+}
