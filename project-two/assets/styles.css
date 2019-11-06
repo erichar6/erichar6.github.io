@@ -1,26 +1,329 @@
 body {
     background-color: cornsilk;
-    font-family:  "bello-pro", sans-serif; 
-    color: red; 
-    font-size: 100px;
+    font-family:  "PT Serif", sans-serif; 
+    color: lightcoral; 
+    font-size: 125px;
     margin:0; 
     padding:0; 
-    margin-top: -100px;
+    margin-top: -200px;
     margin-bottom: -200px; 
+    text-align: center;
+}
+
+.grfrog {
+    height:1.2em; 
+    width:.2em;
+    background-color: #00f0ff; 
+}
+
+.notre-content {
+    font-family: "PT Serif", sans-serif;
+    font-size:8px;
+    color: #382b9d;
+    padding-left:4vw;
+    width: 10vw;
+    padding: 1vw;
+    margin-top: -460px;
+    position: absolute;
+}
+
+.invisible {
+    visibility: hidden; 
+}
+
+.fighting-irish {
+    color: navy; 
+    font-weight:20px;
+    font-family: "PT Serif", sans-serif;
+    letter-spacing: 1px;
+    font-size: 18px;
+    margin:auto; 
+    
+}
+
+#reveal-button:hover {
+    background-color: red;
 }
     
 h2 {
-    font-size: 50px;
-    margin-top: -50px; 
+    font-size: 80px;
+    margin-top: -200px;
+}
+
+h3 {
+    font-size: 80px;
+    margin-top: -90px;
+}
+
+.button {
+    background-color: #382b9d;
+    height: 8px;
+    width: 8px; 
+    border-radius:50%;
+    position: absolute;
+    
+}
+
+.button:hover  {
+    background-color: lightcoral;
+}
+
+#oregon {
+    bottom: 110px;
+    left: 35px;
+}
+
+#washington {
+    bottom: 160px;
+    left: 45px;
+}
+
+#california {
+    bottom: 5px;
+    left: 45px;
+}
+
+#idaho {
+    bottom: 100px;
+    left: 100px;
+}
+
+#nevada {
+    bottom:45px;
+    left: 80px;
+}
+
+#montana {
+    bottom:155px;
+    left: 170px;
+}
+
+#wyoming {
+    bottom:100px;
+    left: 180px;
+}
+
+#utah {
+    bottom:35px;
+    left: 140px;
+}
+
+#arizona {
+    bottom:-25px;
+    left: 140px;
+}
+
+#alaska {
+    bottom:-100px;
+    left: 50px;
+}
+
+#hawaii {
+    bottom:-160px;
+    left: 210px;
+}
+
+#colorado {
+    bottom:35px;
+    left: 200px;
+}
+
+#newmexico {
+    bottom:-20px;
+    left: 195px;
+}
+
+#northdakota {
+    bottom:165px;
+    left: 260px;
+}
+
+#southdakota {
+    bottom:115px;
+    left: 260px;
+}
+
+#nebraska {
+    bottom:75px;
+    left: 270px;
+}
+
+#kansas {
+    bottom: 33px;
+    left: 280px;
+}
+
+#oklahoma {
+    bottom:-10px;
+    left: 290px;
+}
+
+#texas {
+    bottom:-60px;
+    left: 280px;
+}
+
+#minnesota {
+    bottom:160px;
+    left: 320px;
+}
+
+#iowa {
+    bottom:80px;
+    left: 330px;
+}
+
+#missouri {
+    bottom:30px;
+    left: 340px;
+}
+
+#arkansas {
+    bottom:-20px;
+    left: 340px;
+}
+
+#louisiana {
+    bottom:-55px;
+    left: 345px;
+}
+
+#wisconsin {
+    bottom:120px;
+    left: 375px;
+}
+
+#illinois {
+    bottom:55px;
+    left: 380px;
+}
+
+#indiana {
+    bottom:55px;
+    left: 413px;
+}
+
+#kentucky {
+    bottom:20px;
+    left: 435px;
+}
+
+#tennessee {
+    bottom:-6px;
+    left: 420px;
+}
+
+#mississippi {
+    bottom:-40px;
+    left: 375px;
+}
+
+#alabama {
+    bottom:-40px;
+    left: 407px;
+}
+
+#georgia {
+    bottom:-50px;
+    left: 445px;
+}
+
+#michigan {
+    bottom: 90px; 
+    left: 427px;
+}
+
+#ohio {
+    bottom:50px;
+    left: 450px;
+}
+
+#florida {
+    bottom:-110px;
+    left: 465px;
+}
+
+#newyork {
+    bottom:90px;
+    left: 535px;
+}
+
+#pennsylvania {
+    bottom:60px;
+    left: 505px;
+}
+
+#westvirginia {
+    bottom:30px;
+    left: 475px;
+}
+
+#virginia {
+    bottom:13px;
+    left: 500px;
+}
+
+#northcarolina {
+    bottom:-12px;
+    left: 498px;
+}
+
+#southcarolina {
+    bottom:-35px;
+    left: 475px;
+}
+
+#maine {
+    bottom:130px;
+    left: 600px;
+}
+
+#vermont {
+    bottom:117px;
+    left: 565px;
+}
+
+#newhampshire {
+    bottom:102px;
+    left: 575px;
+}
+
+#massachusetts {
+    bottom:86px;
+    left: 588px;
+}
+
+#rhodeisland {
+    bottom:73px;
+    left: 583px;
+}
+
+#connecticut {
+    bottom:78px;
+    left: 565px;
+}
+
+#newjersey {
+    bottom:64px;
+    left: 545px;
+}
+
+#delaware {
+    bottom:40px;
+    left: 540px;
+}
+
+#maryland {
+    bottom:46px;
+    left: 520px;
 }
 
 
 
- letter-container h1 {
-    font-size: 500px; 
-    font-weight: 900px;
-    margin-left: 31.28px;
-    margin-right: 13.55px;
-    margin-top: -100px;
-    margin-bottom: -100px;
-}
+
+
+
+
+
+
+
