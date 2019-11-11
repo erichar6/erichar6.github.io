@@ -2,10 +2,9 @@ body {
     background-color: cornsilk;
     font-family:  "PT Serif", sans-serif; 
     color: lightcoral; 
-    font-size: 125px;
-    margin:0; 
+    font-size: 160px;
     padding:0; 
-    margin-top: -200px;
+    margin-top: -275px;
     margin-bottom: -200px; 
     text-align: center;
 }
@@ -32,290 +31,317 @@ body {
 }
 
 .fighting-irish {
-    color: navy; 
-    font-weight:20px;
+    color: #382b9d; 
+    font-weight: 20px;
     font-family: "PT Serif", sans-serif;
-    letter-spacing: 1px;
-    font-size: 18px;
-    margin:auto; 
-    
+    letter-spacing: 0px;
+    font-size: 20px; 
+    margin-top: -50px;
+    align-content: center;
 }
 
 #reveal-button:hover {
     background-color: red;
 }
-    
+
 h2 {
+    text-align: center;
     font-size: 80px;
-    margin-top: -200px;
+    margin-top: -275px;
+    color: #382b9d;
 }
 
 h3 {
+    text-align: center;
     font-size: 80px;
     margin-top: -90px;
+    color: #382b9d;
+}
+
+h4 {
+   text-align: center;
+    font-size: 18px;
+    color: #382b9d;
+    margin-top: -70px
 }
 
 .button {
     background-color: #382b9d;
     height: 8px;
     width: 8px; 
-    border-radius:50%;
+    border-radius:50%; 
     position: absolute;
-    
 }
 
 .button:hover  {
     background-color: lightcoral;
 }
 
+.container {
+    width: 700px;
+    margin: 0 auto; 
+    position: relative;
+}
+
+.united-states {
+    position: relative;
+    margin-top: 25px;
+}
+
+.button-container {
+    position: absolute;
+    top: 51%;
+    left: 5%;
+}
+
 #oregon {
-    bottom: 110px;
-    left: 35px;
+    bottom: 345px;
+    left: 50px;
 }
 
 #washington {
-    bottom: 160px;
+    bottom: 385px;
     left: 45px;
 }
 
 #california {
-    bottom: 5px;
-    left: 45px;
+    bottom: 260px;
+    left: 70px;
 }
 
 #idaho {
-    bottom: 100px;
-    left: 100px;
+    bottom: 332px;
+    left: 120px;
 }
 
 #nevada {
-    bottom:45px;
-    left: 80px;
+    bottom:270px;
+    left: 86px;
 }
 
 #montana {
-    bottom:155px;
+    bottom:390px;
     left: 170px;
 }
 
 #wyoming {
-    bottom:100px;
-    left: 180px;
+    bottom:308px;
+    left: 235px;
 }
 
 #utah {
-    bottom:35px;
-    left: 140px;
+    bottom:280px;
+    left: 165px;
 }
 
 #arizona {
-    bottom:-25px;
-    left: 140px;
+    bottom: 198px;
+    left: 168px;
 }
 
 #alaska {
-    bottom:-100px;
-    left: 50px;
+    bottom:80px;
+    left: 120px;
 }
 
 #hawaii {
-    bottom:-160px;
+    bottom: 75px;
     left: 210px;
 }
 
 #colorado {
-    bottom:35px;
-    left: 200px;
+    bottom: 270px;
+    left: 240px;
 }
 
 #newmexico {
-    bottom:-20px;
-    left: 195px;
+    bottom:215px;
+    left: 235px;
 }
 
 #northdakota {
-    bottom:165px;
-    left: 260px;
-}
-
-#southdakota {
-    bottom:115px;
-    left: 260px;
-}
-
-#nebraska {
-    bottom:75px;
-    left: 270px;
-}
-
-#kansas {
-    bottom: 33px;
-    left: 280px;
-}
-
-#oklahoma {
-    bottom:-10px;
+    bottom: 390px;
     left: 290px;
 }
 
+#southdakota {
+    bottom: 347px;
+    left: 293px;
+}
+
+#nebraska {
+    bottom:295px;
+    left: 325px;
+}
+
+#kansas {
+    bottom: 267px;
+    left: 340px;
+}
+
+#oklahoma {
+    bottom: 220px;
+    left: 325px;
+}
+
 #texas {
-    bottom:-60px;
-    left: 280px;
+    bottom:160px;
+    left: 322px;
 }
 
 #minnesota {
-    bottom:160px;
-    left: 320px;
+    bottom:360px;
+    left: 375px;
 }
 
 #iowa {
-    bottom:80px;
-    left: 330px;
+    bottom:307px;
+    left: 370px;
 }
 
 #missouri {
-    bottom:30px;
-    left: 340px;
+    bottom:260px;
+    left: 383px;
 }
 
 #arkansas {
-    bottom:-20px;
-    left: 340px;
-}
-
-#louisiana {
-    bottom:-55px;
-    left: 345px;
-}
-
-#wisconsin {
-    bottom:120px;
-    left: 375px;
-}
-
-#illinois {
-    bottom:55px;
+    bottom: 210px;
     left: 380px;
 }
 
+#louisiana {
+    bottom: 150px;
+    left: 395px;
+}
+
+#wisconsin {
+    bottom: 335px;
+    left: 415px;
+}
+
+#illinois {
+    bottom:280px;
+    left: 415px;
+}
+
 #indiana {
-    bottom:55px;
-    left: 413px;
-}
-
-#kentucky {
-    bottom:20px;
-    left: 435px;
-}
-
-#tennessee {
-    bottom:-6px;
-    left: 420px;
-}
-
-#mississippi {
-    bottom:-40px;
-    left: 375px;
-}
-
-#alabama {
-    bottom:-40px;
-    left: 407px;
-}
-
-#georgia {
-    bottom:-50px;
-    left: 445px;
-}
-
-#michigan {
-    bottom: 90px; 
-    left: 427px;
-}
-
-#ohio {
-    bottom:50px;
+    bottom:280px;
     left: 450px;
 }
 
+#kentucky {
+    bottom:250px;
+    left: 470px;
+}
+
+#tennessee {
+    bottom:224px;
+    left: 443px;
+}
+
+#mississippi {
+    bottom: 180px;
+    left: 405px;
+}
+
+#alabama {
+    bottom:180px;
+    left: 445px;
+}
+
+#georgia {
+    bottom:192px;
+    left: 473px;
+}
+
+#michigan {
+    bottom: 320px; 
+    left: 465px;
+}
+
+#ohio {
+    bottom:283px;
+    left: 484px;
+}
+
 #florida {
-    bottom:-110px;
+    bottom:150px;
     left: 465px;
 }
 
 #newyork {
-    bottom:90px;
-    left: 535px;
+    bottom:325px;
+    left: 585px;
 }
 
 #pennsylvania {
-    bottom:60px;
-    left: 505px;
+    bottom:290px;
+    left: 552px;
 }
 
 #westvirginia {
-    bottom:30px;
-    left: 475px;
-}
-
-#virginia {
-    bottom:13px;
+    bottom: 255px;
     left: 500px;
 }
 
-#northcarolina {
-    bottom:-12px;
-    left: 498px;
-}
-
-#southcarolina {
-    bottom:-35px;
-    left: 475px;
-}
-
-#maine {
-    bottom:130px;
-    left: 600px;
-}
-
-#vermont {
-    bottom:117px;
-    left: 565px;
-}
-
-#newhampshire {
-    bottom:102px;
-    left: 575px;
-}
-
-#massachusetts {
-    bottom:86px;
-    left: 588px;
-}
-
-#rhodeisland {
-    bottom:73px;
-    left: 583px;
-}
-
-#connecticut {
-    bottom:78px;
-    left: 565px;
-}
-
-#newjersey {
-    bottom:64px;
-    left: 545px;
-}
-
-#delaware {
-    bottom:40px;
+#virginia {
+    bottom: 245px;
     left: 540px;
 }
 
+#northcarolina {
+    bottom: 220px;
+    left: 530px;
+}
+
+#southcarolina {
+    bottom: 195px;
+    left: 509px;
+}
+
+#maine {
+    bottom: 345px;
+    left: 637px;
+}
+
+#vermont {
+    bottom: 340px;
+    left: 602px;
+}
+
+#newhampshire {
+    bottom: 325px;
+    left: 613px;
+}
+
+#massachusetts {
+    bottom: 308px;
+    left: 618px;
+}
+
+#rhodeisland {
+    bottom: 298px;
+    left: 616px;
+}
+
+#connecticut {
+    bottom: 300px;
+    left: 600px;
+}
+
+#newjersey {
+    bottom: 283px;
+    left: 575px;
+}
+
+#delaware {
+    bottom: 267px;
+    left: 568px;
+}
+
 #maryland {
-    bottom:46px;
-    left: 520px;
+    bottom: 264px;
+    left: 555px;
 }
 
 
