@@ -1,0 +1,34 @@
+body {
+    background-color: #DAE9FA;
+}
+
+h1 {
+    font-size: 40px;
+    font-weight: bold;
+    margin: auto; 
+}
+
+h2 {
+    font-size: 26px;
+    font-weight: bold;
+    border-top: .300rem solid #95B7EB; 
+    padding-top: 1rem;
+}
+
+h3 {
+    font-size: 16px;
+    margin: auto;
+    font-weight: normal;
+}
+
+h4 {
+    font-size: 16px;
+    font-style: italic;
+    margin: auto;
+}
+
+h5 {
+    font-size: 20px;
+    font-weight: bold;
+    margin: auto;
+}
