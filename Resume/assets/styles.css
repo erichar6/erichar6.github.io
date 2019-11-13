@@ -6,6 +6,7 @@ h1 {
     font-size: 40px;
     font-weight: bold;
     margin: auto; 
+    color: #1C4380;
 }
 
 h2 {
@@ -13,22 +14,26 @@ h2 {
     font-weight: bold;
     border-top: .300rem solid #95B7EB; 
     padding-top: 1rem;
+    color:  #1C4380;
 }
 
 h3 {
     font-size: 16px;
     margin: auto;
     font-weight: normal;
+    color: #1C4380;
 }
 
 h4 {
     font-size: 16px;
     font-style: italic;
     margin: auto;
+    color:  #1C4380;
 }
 
 h5 {
     font-size: 20px;
     font-weight: bold;
     margin: auto;
+    color:  #1C4380;
 }
